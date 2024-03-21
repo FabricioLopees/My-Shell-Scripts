@@ -21,21 +21,16 @@ Onde salvo e compartilho simples shell scripts da qual eu criei e utilizo no meu
     <summary><a href="scripts/webapp.sh">Web Page To Desktop App</a></summary>
     <ul>
         <li>Este script automatiza o ato de criar lançadores no meu Menu de Aplicativos para web apps. Por exemplo, o YouTube, ao invés de abrir o navegador e depois acessar o YouTube, eu posso criar um lançador no meu Menu de Aplicativos do Linux e então acessar ele como se fosse um aplicativo que eu baixei e instalei. </li> 
-        <li>Utilizei o YouTube como exemplo, mas serve para qualquer página web. Basta executar o script passando dois argumentos, o primeiro é o link da página ex: `https://youtube.com`, e o segundo é o nome que quero dar para o "aplicativo" ex: `youtube`.</li><br>
-        **A sintaxe fica assim:**
-        ```
-        ./webapp.sh [link] [nome_do_aplicativo]        
-        ```
-        **Exemplo com o YouTube:**
-        ```
-        ./webapp.sh https://youtube.com youtube
-        ``` 
+        <li>Utilizei o YouTube como exemplo, mas serve para qualquer página web. Basta executar o script passando dois argumentos, o primeiro é o link da página ex: https://youtube.com, e o segundo é o nome que quero dar para o "aplicativo" ex: youtube.</li>
+        <li>A sintaxe fica: webapp [link] [nome_do_aplicativo]</li>
+        <li>Exemplo: webapp https://youtube.com youtube</li>
     </ul>
 </details>
 <details>
     <summary><a href="scripts/rmapp.sh">Remove Web Apps</a></summary>
     <ul>
         <li>Desfaz o "app" criado no script anterior.</li>
-        <li>Sintaxe: `rmapp [nome_do_aplicativo]`</li>  
+        <li>Sintaxe: rmapp [nome_do_aplicativo]</li>  
+        <li>Exemplo: rmapp youtube</li>
     </ul>
 </details>
