@@ -2,9 +2,10 @@
 
 if [ $# == 1 ]; then
 	sudo rm /usr/share/applications/$1.desktop
-	echo "Successfully removed $1 web app!"
+	rm ~/Home-Bin/$1
+	rm ~/Home-Bin/c-programs/$1.c
+	echo "$1 web app successfully removed!"
 else
-	1 > /dev/null 2>&1
 	echo "ERROR: Wrong arguments!"
-	echo "Sintaxe: rmapp [app_name]"
+	echo "Sintaxe: rmprog[APP_NAME]"
 fi
