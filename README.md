@@ -3,7 +3,7 @@
 Onde salvo e compartilho simples shell scripts da qual eu criei e utilizo no meu dia-a-dia ou simplesmente shell scripts que criei para testar algo, ou aprender algum conceito do mundo linux, etc.
 
 ### Lista de Scripts
-<details open>
+<details>
     <summary><a href="scripts/study-java.sh">Study Java</a></summary>
     <ul>
             <li>O meu primeiro script criado e que realmente foi funcional. Bem simples, mas já serviu como </li>primeiro degrau para adentrar neste "mundo" de shell scripts.
@@ -32,5 +32,11 @@ Onde salvo e compartilho simples shell scripts da qual eu criei e utilizo no meu
         <li>Desfaz o "app" criado no script anterior.</li>
         <li>Sintaxe: rmprog [NOME_DO_APLICATIVO]</li>  
         <li>Exemplo: rmprog youtube</li>
+    </ul>
+</details>
+<details>
+    <summary><a href="scripts/commits.sh">Commits</a></summary>
+    <ul>
+        <li>Exibe para mim um documento que eu escrevi sobre conventional commits</li>
     </ul>
 </details>
