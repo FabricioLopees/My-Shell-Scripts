@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup evince ~/Documents/PDFs/markdown-cheatsheet.pdf &
+nohup evince ~/Documents/Sources/Markdown/markdown-cheatsheet.pdf &
