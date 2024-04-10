@@ -37,6 +37,12 @@ Onde salvo e compartilho simples shell scripts da qual eu criei e utilizo no meu
 <details>
     <summary><a href="scripts/commits.sh">Commits</a></summary>
     <ul>
-        <li>Exibe para mim um documento que eu escrevi sobre conventional commits</li>
+        <li>Exibe um documento que escrevi sobre conventional commits</li>
+    </ul>
+</details>
+<details>
+    <summary><a href="scripts/markdown.sh">Markdown</a></summary>
+    <ul>
+        <li>Exibe um pdf com as marcações da linguagem markdown</li>
     </ul>
 </details>
