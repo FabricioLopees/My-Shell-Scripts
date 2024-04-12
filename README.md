@@ -41,23 +41,3 @@ Sintaxe: rmprog [NOME DO APLICATIVO]
 
 Command: ./rmprog.sh youtube
 ```
-
-### [Commits](scripts/commits.sh)
-
-Exibe um documento que escrevi sobre conventional commits.
-
-Exibe em PDF em um leitor de documentos externo:
-```
-Command: ./commits.sh pdf
-```
-Exibe direto no terminal:
-```
-Command: ./commits
-```
-
-### [Markdown](scripts/markdown.sh)
-
-Exibe um PDF com as marcações da linguagem markdown.
-```
-Command: ./markdown.sh
-```
