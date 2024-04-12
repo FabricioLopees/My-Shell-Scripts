@@ -41,3 +41,14 @@ Sintaxe: rmprog [NOME DO APLICATIVO]
 
 Command: ./rmprog.sh youtube
 ```
+
+
+### [Adiciona um alias](scripts/aa.sh)
+
+Cria um alias em meu arquivo de aliases customizados
+
+```
+Sintaxe: aa [NOME DO ALIAS] [COMANDO]
+
+Command: ./aa.sh up sudo pacman -Syu
+```
