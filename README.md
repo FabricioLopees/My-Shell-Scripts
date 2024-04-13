@@ -4,7 +4,7 @@ Onde salvo e compartilho simples shellscripts da qual eu criei e utilizo no meu 
 
 ___
 
-### [Study Java](scripts/study-java.sh)
+### [Study Java](scripts/studyjava.sh)
 
 O meu primeiro script criado e que realmente foi funcional. Bem simples, mas já serviu como um primeiro degrau. Ao ser executado ele abre os programas que eu utilizo quando estudo sobre o Java.
 
