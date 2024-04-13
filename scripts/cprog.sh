@@ -10,13 +10,18 @@ if [ $# == 2 ]; then
 	# Compile C code
 	gcc $2.c -o $2;
 
-	# Move C code to a directory
-	mv $2.c ~/Home-Bin/c-programs/
-	mv $2 ~/Home-Bin/
+	# Create directory for C programs
+	if [ ! -d "$HOME/.local/bin/c-programs/" ]; then
+		mkdir $HOME/.local/bin/c-programs/
+	fi
+
+	# Move C code to the directory
+	mv $2.c ~/.local/bin/c-programs/
+	mv $2 ~/.local/bin/
 	
 	# Create webapp.desktop file
 	touch ~/$2.desktop
-	echo -e "[Desktop Entry]\nType=Application\nName=$2\nExec=/home/fabricio/Home-Bin/$2\nIcon=$2" > ~/$2.desktop
+	echo -e "[Desktop Entry]\nType=Application\nName=$2\nExec=$HOME/.local/bin/$2\nIcon=$2" > ~/$2.desktop
 
 	# Move .desktop file
 	sudo mv ~/$2.desktop /usr/share/applications/
